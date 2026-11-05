@@ -1,0 +1,19 @@
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Large or licensed datasets and model artifacts
+data/
+datasets/
+*.caffemodel
+*.pkl
+*.joblib
+
+# Generated output and temporary artifacts
+outputs/
+*.zip
+.DS_Store
